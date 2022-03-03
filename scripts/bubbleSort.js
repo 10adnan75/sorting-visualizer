@@ -14,8 +14,8 @@ function bubbleSort() {
             }
             divUpdate(divisions[j], divSize[j], "#1982d87b;");
         }
-        divUpdate(divisions[j], divSize[j], "#62BD69");
+        divUpdate(divisions[j], divSize[j], "#ACDF87");
     }
-    divUpdate(divisions[0], divSize[0], "#62BD69");
+    divUpdate(divisions[0], divSize[0], "#ACDF87");
     enableButtons();
 }

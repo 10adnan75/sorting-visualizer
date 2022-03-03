@@ -20,9 +20,9 @@ function insertionSort() {
         }
         divSize[i + 1] = key;
         for (var t = 0; t < j; t++) {
-            divUpdate(divisions[t], divSize[t], "#62BD69");
+            divUpdate(divisions[t], divSize[t], "#ACDF87");
         }
     }
-    divUpdate(divisions[j - 1], divSize[j - 1], "#62BD69");
+    divUpdate(divisions[j - 1], divSize[j - 1], "#ACDF87");
     enableButtons();
 }

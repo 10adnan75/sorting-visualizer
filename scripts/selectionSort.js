@@ -23,8 +23,8 @@ function selectionSort() {
             divUpdate(divisions[i], divSize[i], "#fd5973");
             divUpdate(divisions[indexMin], divSize[indexMin], "#1982d87b;");
         }
-        divUpdate(divisions[i], divSize[i], "#62BD69");
+        divUpdate(divisions[i], divSize[i], "#ACDF87");
     }
-    divUpdate(divisions[i], divSize[i], "#62BD69");
+    divUpdate(divisions[i], divSize[i], "#ACDF87");
     enableButtons();
 }

@@ -46,11 +46,11 @@ function heapSortHelper() {
     }
     for (var i = arrSize - 1; i > 0; i--) {
         swap(0, i);
-        divUpdate(divisions[i], divSize[i], "#62BD69");
+        divUpdate(divisions[i], divSize[i], "#ACDF87");
         divUpdate(divisions[i], divSize[i], "#FCF4A3");
         maxHeapify(i, 0);
         divUpdate(divisions[i], divSize[i], "#1982d87b;");
-        divUpdate(divisions[i], divSize[i], "#62BD69");
+        divUpdate(divisions[i], divSize[i], "#ACDF87");
     }
-    divUpdate(divisions[i], divSize[i], "#62BD69");
+    divUpdate(divisions[i], divSize[i], "#ACDF87");
 }

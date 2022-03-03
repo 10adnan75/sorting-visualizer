@@ -31,7 +31,7 @@ function quickPartition(start, end) {
     divUpdate(divisions[start], divSize[start], "#fd5973");
     divUpdate(divisions[i - 1], divSize[i - 1], "#fd5973");
     for (var t = start; t <= i; t++) {
-        divUpdate(divisions[t], divSize[t], "#62BD69");
+        divUpdate(divisions[t], divSize[t], "#ACDF87");
     }
     return i - 1;
 }

@@ -24,7 +24,7 @@ function mergeSortHelper(start, mid, end) {
     }
     for (var t = 0; t < k; t++) {
         divSize[start++] = arr[t];
-        divUpdate(divisions[start - 1], divSize[start - 1], "#62BD69");
+        divUpdate(divisions[start - 1], divSize[start - 1], "#ACDF87");
     }
 }
 
