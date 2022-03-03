@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="sort.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="array-inputs">
+                <p>Array size:</p>
+                <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+                <p>Speed:</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+                <button id="a_generate">SHUFFLE</button>
+            </div>
+
+            <div class="header_right">
+                <p class="nav-heading">Sorting Visualizer</p>
+                <p>© Adnan Shaikh</p>
+                <div class="algos">
+                    <button>Merge</button>
+                    <button>Selection</button>
+                    <button>Quick</button>
+                    <button>Insertion</button>
+                    <button>Bubble</button>
+                    <button>Heap</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="Info_Cont1"></div>
+        <div id="array_container"></div>
+        <div id="Info_Cont2"></div>
+    </section>
+
+    <footer>
+        <div id="array_container">
+            <center>
+                <a href="https://www.github.com/10adnan75/sorting-visualizer"><img src="https://www.pngarts.com/files/8/Black-Github-Logo-PNG-Image-Background.png" alt="github" style="width: 42px; height: 42px;"></a>
+            </center>
+        </div>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/sortVisualization.js"></script>
+
+    <script src="./scripts/bubbleSort.js"></script>
+    <script src="./scripts/selectionSort.js"></script>
+    <script src="./scripts/insertionSort.js"></script>
+    <script src="./scripts/mergeSort.js"></script>
+    <script src="./scripts/quickSort.js"></script>
+    <script src="./scripts/heapSort.js"></script>
+</body>
+
+</html>
