@@ -30,6 +30,8 @@ Sorting algorithms can be confusing and challenging to comprehend. Inevitably, 
 
 Merge Sort is a sorting algorithm that uses the Divide and Conquer method. Using the Top-Down and Bottom-Up techniques, it can be implemented iteratively or recursively.
 
+Recursively partitioning the data structure, the process continues until each subsequence only has one element. At this stage, the subsequences are amalgamated and put in order. The algorithm does this by gradually creating the sorted subarray by adding the least element from the subsequent two unsorted subsequences each time, until there is only one subarray left. This is the data structure which will be sorted.
+
 - Time complexity: *O(n log n)*
 
 - Space complexity: *O(n)*
@@ -79,6 +81,27 @@ Merge Sort is a sorting algorithm that uses the Divide and Conquer method. Usi
 ---
 
 ## Selection Sort
+
+Selection Sort is an in-place, iterative sorting method that separates the data structure into two subarrays: one that is ordered and one that is not. The algorithm goes through each member of the data structure and, for each cycle, chooses the smallest element from the unordered subarray and adds it to the sorted subarray, gradually filling it.
+
+Even though it's a relatively straightforward and intuitive technique that doesn't use any extra memory, due to its quadratic time complexity, it isn't very effective on large data structures.
+
+- Time complexity: *O(n²)* 
+
+- Space complexity: *O(1)*
+
+<sub>Algorithm:</sub>
+
+    void selectionSort(int arr[]) {
+        int n = arr.length;
+        for (int i = 0; i < n-1; i++) {
+            int min_idx = i;
+            for (int j = i+1; j < n; j++) if (arr[j] < arr[min_idx]) min_idx = j;
+            int temp = arr[min_idx];
+            arr[min_idx] = arr[i];
+            arr[i] = temp;
+        }
+    }
 
 ---
 
