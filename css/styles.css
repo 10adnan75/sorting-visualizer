@@ -13,9 +13,9 @@ nav {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 60%;
-      grid-template-columns: 30% 60%;
+  grid-template-columns: 30% 60%;
   -webkit-column-gap: 10%;
-          column-gap: 10%;
+  column-gap: 10%;
   padding: 0% 5%;
 }
 
@@ -23,7 +23,7 @@ nav .array-inputs {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 60% 40%;
-      grid-template-columns: 60% 40%;
+  grid-template-columns: 60% 40%;
   place-content: center;
   padding: 10% 0%;
 }
@@ -55,8 +55,8 @@ nav .header_right {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 nav .header_right .nav-heading {
@@ -71,7 +71,7 @@ nav .header_right .algos {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (16.66667%);
-      grid-template-columns: repeat(6, 16.66667%);
+  grid-template-columns: repeat(6, 16.66667%);
   place-content: center;
   padding: 3% 0%;
 }
@@ -119,7 +119,7 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 20% 60% 20%;
-      grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
 }
 
 section #Info_Cont1 {
