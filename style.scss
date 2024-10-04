@@ -22,8 +22,6 @@ nav {
         grid-template-columns: 60% 40%;
         place-content: center;
         padding: 5% 0%;
-        align-content: space-evenly;
-
 
         #a_size {
             padding: 5% 0%;
@@ -35,8 +33,11 @@ nav {
 
         #a_generate {
             background-color: transparent;
+            border: none;
             outline: none;
-            color: black;
+            color: white;
+            padding: 4% 0% 0% 0%;
+            padding-left: 20%;
 
             &:hover {
                 cursor: pointer;
@@ -56,7 +57,7 @@ nav {
 
         .algos {
             display: grid;
-            grid-template-columns: repeat(6, 29%);
+            grid-template-columns: repeat($algo, (100%/$algo));
             place-content: center;
             padding: 2% 0%;
 
